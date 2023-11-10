@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 body{
-    background: url("WhatsApp\ Image\ 2023-09-20\ at\ 12.45.44\ PM.jpeg");
+    background: url("images/WhatsApp\ Image\ 2023-09-20\ at\ 12.45.44\ PM.jpeg");
     background-size: cover;
     font-family: 'Orbitron', sans-serif;
+    /* background: url(".images/wh"); */
 
 }
 .scroll{
@@ -24,7 +25,7 @@ section{
     left: 0;
     width: 100%;
     height: 100vh;
-    background:url("x.jpg");
+    background:url("images/x.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -209,22 +210,22 @@ transform: translate(-80px,50px);
         height: 100%;
     }
     .section1:nth-child(1){
-        background: url("pexels-vikash-singh-17817341.jpg");
+        background: url("images/pexels-vikash-singh-17817341.jpg");
         background-size: cover;
         background-attachment: fixed;
     }
     .section1:nth-child(2){
-        background: url("pag1.jpg");
+        background: url("images/pag1.jpg");
         background-size: cover;
         background-attachment: fixed;
     }
     .section1:nth-child(3){
-        background: url("pag4.jpg");
+        background: url("images/pag4.jpg");
         background-size: cover;
         background-attachment: fixed;
     }
     .section1:nth-child(4){
-        background: url("pag3.jpg");
+        background: url("images/pag3.jpg");
         background-size: cover;
         background-attachment: fixed;
     }
@@ -320,7 +321,7 @@ transform: translate(-80px,50px);
     
     }
     .logo{
-        background-image: url("Cosmos_logo.png");
+        background-image: url("images/Cosmos_logo.png");
         background-size: cover;
         height: 50px;
     width: 100px;
